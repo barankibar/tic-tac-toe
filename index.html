@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe !!</title>
+    <link rel="stylesheet" href="/stylesheet/stylesheet.css">
+</head>
+<body>
+    <div id="background">
+        <section class="title">
+            <h1>Tic Tac Toe!!</h1>
+            <!-- Game Instructor -->
+            <p>Game Instructor</p>
+        </section>
+        <br><br>
+
+        <!-- 3*3 grid of boxes -->
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+        <section class="display anouncer hide"></section>
+        <!-- Grid End Here -->
+        <br>
+        
+        <!-- space to show player turn -->
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s Turn
+        </section>
+        <section class="controls">
+            <!-- Button to reset game -->
+            <button id="reset">
+                RESET
+            </button>
+        </section>    
+    </div>
+
+
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
